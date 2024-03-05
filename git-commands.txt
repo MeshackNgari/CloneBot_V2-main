@@ -1,0 +1,12 @@
+# run this if you uninstall git from your computer and re-install it
+git config --global user.name "MeshackNgari"
+git config --global user.email "meshackngari7@gmail.com" 
+
+
+#run this to create a new project in your github account
+git init
+git add .
+git commit -m "First Commit"
+git remote add origin <link to the folder>
+git pull origin master
+git push origin master
